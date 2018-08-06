@@ -5,8 +5,10 @@
   margin-right: 0px;
   padding:0px;
   line-height: 0px;
+
 }
 body{
+
   font-family: 'IBM Plex Sans', sans-serif;
   color: black;
   opacity: 0;
@@ -203,7 +205,7 @@ margin: 25px 50px 75px 100px;
   background-color: black;
   border:0px solid transparent;
   visibility: hidden;
-  opacity: 0.1;
+  opacity: 0.0;
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
         -ms-animation: fadein 3s; /* Internet Explorer */
@@ -216,25 +218,29 @@ margin: 25px 50px 75px 100px;
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px 0px 0px 0px;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
 }
 
 .portimg:hover
 	{
     background-color: black;
-    opacity: 1;
+    opacity: 0;
     transition-delay: 2ms;
-    -webkit-transition: background-color 2ms ease-out;
-    -moz-transition: background-color 2ms ease-out;
-    -o-transition: background-color 2ms ease-out;
-    transition: background-color 2ms ease-out;
+    -webkit-transition: background-color 2ms ease-in;
+    -moz-transition: background-color 2ms ease-in;
+    -o-transition: background-color 2ms ease-in;
+    transition: background-color 2ms ease-in;
 
     opacity: 1;
-    background-color: #00CC99;
-    border-radius: 1px;
-    border:1px solid #00CC99;
+
+    background-color: #00CC9950;
+    border-radius: 2px;
+    border: 1px solid #00CC9950;
     cursor: pointer;
-		-moz-box-shadow: 0 0 10px #00CC99;
-		-webkit-box-shadow: 0 0 10px #00CC99;
-		box-shadow: 0 0 10px #00CC99;
+    -moz-box-shadow: 0 0 10px #00CC9950;
+    -webkit-box-shadow: 0 0 10px #00CC9950;
+    box-shadow: 0 0 10px #00CC9950;
 
 	}

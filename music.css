@@ -43,7 +43,9 @@ body{
 }
 
 .heromusic {
-  background-image: url("assets/bg.png");
+  /*background-image: url("assets/ntd.jpg");*/
+
+
   background-size: cover;
   background-color: inherit;
   background-blend-mode: normal;
