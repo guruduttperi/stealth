@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Karla:200,200i,300,400,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
@@ -25,10 +26,11 @@
 <body>
   <!-- Nav Bar -->
 
-  <nav class="navbar is-fixed-top is-transparent">
+  <nav class="navbar is-transparent">
     <div class="container">
       <div class="navbar-brand">
-        <h1 class="navbar-item is-1" href="index.html" style="font-weight: bold; cursor:default;" onclick="return false"><img src = "assets/GD.png"></h1>
+        <!--<h1 class="navbar-item is-1" href="index.html" style="font-weight: bold; cursor:default;" onclick="return false"><img src = "assets/GD.png"></h1> -->
+        <a class="navbar-item is-1" href="index.html" style="font-family: 'Libre Barcode 39 Text'; font-weight: normal"><img src = "assets/GD.png"></a>
         <span class = "navbar-burger burger" data-target = "navMenu">
           <span></span>
           <span></span>
@@ -56,9 +58,9 @@
       <div class="container has-text-centered">
         <br>
         <br>
-        <h1 class="title is-3" style="color: black;">
+        <h1 class="title is-3" style="color: grey; font-family: Metropolis,sans-serif;">
           Hello There!
-        </h1>
+        </h1><br>
         <h2 class="subtitle is-5" style="color: black;">
           I’m <b style="color: #00CC99 ;">Gurudutt</b>, a digital product designer focused on making interfaces<br>
 and experiences magical with prototypes and interactions.
@@ -94,16 +96,33 @@ and experiences magical with prototypes and interactions.
         <img src = "assets/s2.png" class = "portimg"/>
       </div>
     </div> -->
-<div data-aos="fade-up">
+
+  <!--  <div data-aos="fade-up">
+
     <div class="columns is-gapless is-centered">
-  <div class="column is-5">
-    <div id = "wrapper">
-      <a href = "indifilm.html">
-    <img src = "assets/i2.png" class = "portimg" onmouseover="this.src='assets/v1.jpg';" onmouseout="this.src='assets/i2.png';">
-</a>
+      <div class="column is-10">
+        <div id = "wrapper">
+          <a href = "indifilm.html">
+        <img src = "assets/indifilm.png" class = "portimg" >
+    </a>
+
+        </div>
+      </div>
     </div>
   </div>
-  <div class="column is-5">
+-->
+<div data-aos="fade-up">
+
+<div class="columns is-gapless is-centered">
+  <div class="column is-4">
+    <div id = "wrapper">
+      <a href = "indifilm.html">
+    <img src = "assets/i2.png" class = "portimg" onmouseover="this.src='assets/v1.png';" onmouseout="this.src='assets/i2.png';">
+</a>
+
+    </div>
+  </div>
+  <div class="column is-4">
     <div id = "wrapper">
       <a href = "indifilm.html">
     <img src = "assets/s2.png" class = "portimg" onmouseover="this.src='assets/gr1.png';" onmouseout="this.src='assets/s2.png';">
@@ -113,26 +132,47 @@ and experiences magical with prototypes and interactions.
 
 </div>
 </div>
+
+<!-- DEVSLOPES -->
+
 <div data-aos="fade-up">
     <div class="columns is-gapless is-centered">
-      <div class="column is-10">
-          <a href = "indifilm.html">
-        <img src = "assets/11.png" class = "portimg" id = "p1">
+      <div class="column is-8">
+          <a href = "devslopes.html">
+        <img src = "assets/dev.png" class = "portimg">
       </a>
         <span class = "hoverimg"> </span>
         </div>
       </div>
       </div>
+
+<!-- Groceristar Meal Planning UX -->
+
+      <div data-aos="fade-up">
+          <div class="columns is-gapless is-centered">
+            <div class="column is-8">
+                <a href = "devslopes.html">
+              <img src = "assets/gstar2.png" class = "portimg">
+            </a>
+              <span class = "hoverimg"> </span>
+              </div>
+            </div>
+            </div>
+
+
+
+      <!-- Other -->
+
 <div data-aos="fade-up">
     <div class="columns is-gapless is-centered">
-  <div class="column is-5">
+  <div class="column is-4">
     <div id = "wrapper">
       <a href = "indifilm.html">
     <img src = "assets/med.png" class = "portimg">
 </a>
     </div>
   </div>
-  <div class="column is-5">
+  <div class="column is-4">
     <div id = "wrapper">
       <a href = "indifilm.html">
     <img src = "assets/insta.png" class = "portimg">
@@ -158,7 +198,7 @@ and experiences magical with prototypes and interactions.
   })();
 
     AOS.init();
-
+/*
     $('.hover').mouseover(function() {
   $('.text').css("visibility","visible");
 });
@@ -166,6 +206,7 @@ and experiences magical with prototypes and interactions.
 $('.hover').mouseout(function() {
   $('.text').css("visibility","hidden");
 });
+*/
 
 /*
 $(".portimg").hover(function(){
