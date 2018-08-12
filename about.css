@@ -8,6 +8,7 @@ body{
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
   opacity: 1;
+  
 
 }
 
@@ -92,7 +93,7 @@ body{
 
 .footer{
   background-color: white;
-  
+
 }
 
 .fab > .fa-youtube:hover {
