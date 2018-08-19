@@ -40,6 +40,7 @@ body{
 }
 
 
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -75,11 +76,13 @@ div{
 
 
 }
+
+
 .heroone {
-  /*background-image: url("assets/plum.png");*/
+  
   background-size: cover;
   background-color: inherit;
-  background-blend-mode: darken;
+  background-blend-mode: normal;
   overflow: hidden;
   object-fit: contain;
   font-family:  "IBM Plex Sans", sans-serif;
@@ -236,10 +239,16 @@ margin: 25px 50px 75px 100px;
 
     background-color: #00CC9950;
     border-radius: 2px;
-    border: 5px solid #00CC9950;
+    border: 1px solid #00CC9950;
     cursor: pointer;
     -moz-box-shadow: 20 20 20px #00CC9950;
     -webkit-box-shadow: 20 20 20px #00CC9950;
     box-shadow: 20px 20 20px #00CC9950;
 
 	}
+
+
+  .footer{
+    background-color: white;
+
+  }

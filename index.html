@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
@@ -58,7 +59,7 @@
       <div class="container has-text-centered">
         <br>
         <br>
-        <h1 class="title is-3" style="color: #404040; font-family: Archivo,sans-serif; font-weight: bold;">
+        <h1 class="title is-3" style="color: #404040; font-family: 'Archivo',sans-serif; font-weight: bold;">
           Hello There!
         </h1><br>
         <div class="columns is-gapless is-centered">
@@ -116,6 +117,18 @@
   </div>
 -->
 <div data-aos="fade-up">
+    <div class="columns is-gapless is-centered">
+      <div class="column is-10">
+          <a href = "devslopes.html">
+        <img src = "assets/homespaces.png" class = "portimg" >
+
+      </a>
+
+        </div>
+      </div>
+      </div>
+
+<div data-aos="fade-up">
 
 <div class="columns is-gapless is-centered">
   <div class="column is-5">
@@ -123,7 +136,6 @@
       <a href = "indifilm.html">
     <img src = "assets/i2.png" class = "portimg" onmouseover="this.src='assets/v1.png';" onmouseout="this.src='assets/i2.png';">
 </a>
-
     </div>
   </div>
   <div class="column is-5">
@@ -143,9 +155,10 @@
     <div class="columns is-gapless is-centered">
       <div class="column is-10">
           <a href = "devslopes.html">
-        <img src = "assets/dev3.png" class = "portimg">
+        <img src = "assets/dev3.png" class = "portimg" >
+
       </a>
-        <span class = "hoverimg"> </span>
+
         </div>
       </div>
       </div>
@@ -223,6 +236,11 @@ $(".portimg").hover(function(){
 		$(this).attr("src", ouimg);
 });
 */
+
+function displaytext(value){
+  text = value;
+  document.write(text);
+}
   </script>
 
   <footer class="footer">
