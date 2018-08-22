@@ -1,0 +1,26 @@
+[debug] [2018-08-22T14:54:49.508Z] ----------------------------------------------------------------------
+[debug] [2018-08-22T14:54:49.510Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-08-22T14:54:49.510Z] CLI Version:   4.0.0
+[debug] [2018-08-22T14:54:49.510Z] Platform:      darwin
+[debug] [2018-08-22T14:54:49.510Z] Node Version:  v9.2.0
+[debug] [2018-08-22T14:54:49.511Z] Time:          Wed Aug 22 2018 20:24:49 GMT+0530 (IST)
+[debug] [2018-08-22T14:54:49.511Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-22T14:54:49.520Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-22T14:54:49.520Z] > authorizing via signed-in user
+[debug] [2018-08-22T14:54:49.523Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/guruduttxp  
+  
+ Wed Aug 22 2018 20:24:49 GMT+0530 (IST)
+[debug] [2018-08-22T14:54:50.592Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T14:54:50.593Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/guruduttxp/tokens  
+  
+ Wed Aug 22 2018 20:24:50 GMT+0530 (IST)
+[debug] [2018-08-22T14:54:51.460Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'guruduttxp'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing Y directory for upload...
+[debug] [2018-08-22T14:55:00.185Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/guruduttxp/uploads/-LKX7OJgY5cbMp9Wvfkx?fileCount=110&message=  
+  
+ Wed Aug 22 2018 20:25:00 GMT+0530 (IST)
