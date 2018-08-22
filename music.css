@@ -43,6 +43,11 @@ body{
 }
 
 
+.navbar{
+  padding: 20px;
+
+}
+
 .heromusic {
 
   background-size: cover;

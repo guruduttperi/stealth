@@ -98,6 +98,11 @@ div{
   color: grey;
 }
 
+.navbar{
+  padding: 20px;
+
+}
+
 .navbar-brand {
   text-align: center;
   align-items: center;

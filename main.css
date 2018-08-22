@@ -79,9 +79,8 @@ div{
 
 
 .heroone {
-  
+ padding: 20px;
   background-size: cover;
-  background-color: inherit;
   background-blend-mode: normal;
   overflow: hidden;
   object-fit: contain;
@@ -89,6 +88,7 @@ div{
   font-color: #202020;
 
 }
+
 
 .fab {
    border: none;
@@ -99,6 +99,11 @@ div{
 
 #fontawe{
   color: grey;
+}
+
+.navbar{
+  padding: 20px;
+
 }
 
 .navbar-brand {
