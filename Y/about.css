@@ -9,6 +9,7 @@ body{
             animation: fadein 1s;
   opacity: 1;
 
+
 }
 
 @font-face {
@@ -83,6 +84,11 @@ body{
   color: grey;
 }
 
+.navbar{
+  padding: 20px;
+
+}
+
 .navbar-brand {
   text-align: center;
   align-items: center;
@@ -92,7 +98,7 @@ body{
 
 .footer{
   background-color: white;
-  
+
 }
 
 .fab > .fa-youtube:hover {
