@@ -1,3 +1,7 @@
+*{
+  background-color: #fff;
+}
+
 body{
   background-color: white;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -56,6 +60,21 @@ body{
   overflow: hidden;
   object-fit: contain;
   font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.heroone {
+  background: #009FFF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 20px;
+  background-size: cover;
+  background-blend-mode: normal;
+  overflow: hidden;
+  object-fit: contain;
+  font-family:  "IBM Plex Sans", sans-serif;
+  font-color: #202020;
 
 }
 
