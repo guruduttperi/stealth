@@ -196,9 +196,10 @@ border-color: white;
   border: 3px black;
   max-width: 100%;
    height: auto;
+}
 
-
-
+.card-content{
+  text-align: justify;
 }
 .card-header .card-header-title{
   align-content: center;

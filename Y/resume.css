@@ -81,11 +81,11 @@ div{
 
 
 .heroone {
-  background: #8A2387;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-      padding: 20px;
+  padding: 20px;
   background-size: cover;
   background-blend-mode: normal;
 
@@ -97,11 +97,11 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 }
 
 .herotwo{
-  background: #8A2387;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #83a4d4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    padding: 20px;
+  padding: 20px;
     background-size: cover;
     background-blend-mode: normal;
     overflow: hidden;
@@ -128,10 +128,6 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
   padding: 20px;
 
 
-}
-
-.subtitle{
-  text-align: justify;
 }
 /*
 .navbar > .container{

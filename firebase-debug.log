@@ -1,0 +1,35 @@
+[debug] [2018-08-27T17:06:28.915Z] ----------------------------------------------------------------------
+[debug] [2018-08-27T17:06:28.916Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-08-27T17:06:28.917Z] CLI Version:   4.0.0
+[debug] [2018-08-27T17:06:28.917Z] Platform:      darwin
+[debug] [2018-08-27T17:06:28.917Z] Node Version:  v9.2.0
+[debug] [2018-08-27T17:06:28.917Z] Time:          Mon Aug 27 2018 22:36:28 GMT+0530 (IST)
+[debug] [2018-08-27T17:06:28.917Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-27T17:06:28.929Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-27T17:06:28.929Z] > authorizing via signed-in user
+[debug] [2018-08-27T17:06:28.931Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-27T17:06:28.932Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/vllplsuY_Xgg9R8AxsUpNDEstDuCveHVJr_nBWZuq5k',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Aug 27 2018 22:36:28 GMT+0530 (IST)
+[debug] [2018-08-27T17:06:29.169Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-27T17:06:29.201Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/guruduttxp  
+  
+ Mon Aug 27 2018 22:36:29 GMT+0530 (IST)
+[debug] [2018-08-27T17:06:30.248Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-27T17:06:30.249Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/guruduttxp/tokens  
+  
+ Mon Aug 27 2018 22:36:30 GMT+0530 (IST)
+[debug] [2018-08-27T17:06:31.340Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'guruduttxp'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing Y directory for upload...
+[debug] [2018-08-27T17:06:53.483Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/guruduttxp/uploads/-LKwLTm77ANYm67vfTHN?fileCount=172&message=  
+  
+ Mon Aug 27 2018 22:36:53 GMT+0530 (IST)
