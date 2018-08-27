@@ -82,7 +82,8 @@ div{
   overflow: hidden;
   object-fit: contain;
   font-family:  "IBM Plex Sans", sans-serif;
-  font-color: white;
+  opacity: 0.8;
+
 
 }
 
@@ -149,7 +150,7 @@ align-content: center;
    width: 100%;
 /* padding: 250px; */
 box-sizing: border-box;
-margin: 25px 50px 75px 100px;
+
 }
 
 /*
@@ -215,6 +216,31 @@ margin: 25px 50px 75px 100px;
 
 }
 
+.greys{
+  display: grid;
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border:px solid white;
+  visibility: hidden;
+  opacity: 0.0;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 5px 5px 5px 5px;
+}
 
 .portimg{
   display: grid;
@@ -224,7 +250,7 @@ margin: 25px 50px 75px 100px;
   align-content: center;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #white;
   border:px solid white;
   visibility: hidden;
   opacity: 0.0;
@@ -244,9 +270,11 @@ margin: 25px 50px 75px 100px;
 }
 
 .imgcrops{
+  height: auto;
+  width: 60%;
   display: grid;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
+  margin: 10px;
   align-self: center;
   align-content: center;
   align-items: center;
@@ -311,7 +339,28 @@ margin: 25px 50px 75px 100px;
 
 }
 
-.footer{
-  background-color: white;
+.footer, .footer > div, .footer > i, .footer > .fab, .footer > img{
+  background-color: black;
+  color: black;
 
+}
+
+.footerhigh{
+    color: #00CC99;
+    background-color: black;
+}
+
+.footerp {
+background-color: black;
+  padding: 0.3em;
+}
+
+.footerimg{
+background-color: black;
+color: black;
+width: 3em;
+padding: 0.3em;
+
+background-blend-mode: luminosity;
+border:0px solid transparent;
 }

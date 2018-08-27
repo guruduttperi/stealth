@@ -1,3 +1,7 @@
+*{
+  background-color: #fff;
+}
+
 body{
   background-color: white;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -56,6 +60,21 @@ body{
   overflow: hidden;
   object-fit: contain;
   font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.heroone {
+  background: #009FFF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 20px;
+  background-size: cover;
+  background-blend-mode: normal;
+  overflow: hidden;
+  object-fit: contain;
+  font-family:  "IBM Plex Sans", sans-serif;
+  font-color: #202020;
 
 }
 
@@ -166,6 +185,7 @@ ul li{
   display: inline-block;
   justify-content: center;
   text-align: center;
+  color: rgb(16, 85, 156);
 
 }
 
@@ -216,7 +236,30 @@ ul li{
    margin-right: 10px;
 }
 
-.footer{
-  background-color: white;
+.footer, .footer > div, .footer > i, .footer > .fab, .footer > img, footer > p{
+  background-color: black;
+  color: black;
+  margin: 0px;
 
+}
+
+.footerhigh{
+    color: #00CC99;
+    background-color: black;
+    margin-top: 0px;
+}
+
+.footerp {
+background-color: black;
+  padding: 0.3em;
+}
+
+.footerimg{
+background-color: black;
+color: black;
+width: 3em;
+padding: 0.3em;
+
+background-blend-mode: luminosity;
+border:0px solid transparent;
 }

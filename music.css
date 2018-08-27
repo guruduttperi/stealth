@@ -185,6 +185,7 @@ ul li{
   display: inline-block;
   justify-content: center;
   text-align: center;
+  color: rgb(16, 85, 156);
 
 }
 
@@ -235,7 +236,30 @@ ul li{
    margin-right: 10px;
 }
 
-.footer{
-  background-color: white;
+.footer, .footer > div, .footer > i, .footer > .fab, .footer > img, footer > p{
+  background-color: black;
+  color: black;
+  margin: 0px;
 
+}
+
+.footerhigh{
+    color: #00CC99;
+    background-color: black;
+    margin-top: 0px;
+}
+
+.footerp {
+background-color: black;
+  padding: 0.3em;
+}
+
+.footerimg{
+background-color: black;
+color: black;
+width: 3em;
+padding: 0.3em;
+
+background-blend-mode: luminosity;
+border:0px solid transparent;
 }

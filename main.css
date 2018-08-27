@@ -87,6 +87,7 @@ div{
   padding: 20px;
   background-size: cover;
   background-blend-mode: normal;
+
   overflow: hidden;
   object-fit: contain;
   font-family:  "IBM Plex Sans", sans-serif;
@@ -110,8 +111,9 @@ div{
 }
 
 .fab {
-   border: none;
-   display: block;
+
+   border: 0px;
+   display: grid;
    padding-right: 100%;
 
 }
@@ -123,6 +125,13 @@ div{
 .navbar{
   padding: 20px;
 
+
+}
+/*
+.navbar > .container{
+  color: black;
+  background-color: black;
+  text-color: white;
 }
 
 .navbar-brand {
@@ -130,8 +139,19 @@ div{
   align-items: center;
   align-content: center;
   align-self: center;
+  background-color: black;
+  text-color: white;
+}
+.navbar-item, .navbar-menu, .navbar-end{
+  background-color: black;
+  text-color: white;
 }
 
+.navbar-burger{
+  background-color: black;
+  color: white;
+}
+*/
 .subtitle {
 
   color: rgb(34, 34, 34);
@@ -150,6 +170,7 @@ div{
   align-self: center;
   align-content: center;
   background: url("assets/BG.png");
+
 }
 
 .container .box {
@@ -162,7 +183,11 @@ align-content: center;
 /* padding: 250px; */
 box-sizing: border-box;
 border-color: white;
-margin: 25px 50px 75px 100px;
+
+}
+
+.content{
+
 }
 
 .card{
@@ -173,6 +198,7 @@ margin: 25px 50px 75px 100px;
    height: auto;
 
 
+
 }
 .card-header .card-header-title{
   align-content: center;
@@ -180,18 +206,20 @@ margin: 25px 50px 75px 100px;
   text-align: center;
 }
 
+.btn-container{
+  padding: 1em;
+  text-align:center;
+}
 
 .button{
- justify-content: center;
-  position: absolute;
-
-  text-align: center;
-  padding: 1em;
+  margin-left: auto;
+margin-right: auto;
 }
 
 .portcard{
   padding-bottom: 2em;
   border-width: medium;
+
 
 }
 
@@ -304,11 +332,56 @@ margin: 25px 50px 75px 100px;
 
 	}
 
+  .portimg2{
+    display: grid;
+    padding: 0.5em;
+    margin: 0em;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 
-  .footer{
+    border:0px solid transparent;
+    visibility: hidden;
+    opacity: 0.0;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 3s; /* Firefox < 16 */
+          -ms-animation: fadein 3s; /* Internet Explorer */
+           -o-animation: fadein 3s; /* Opera < 12.1 */
+              animation: fadein 3s;
+    opacity: 1;
+    visibility: visible;
+
+
+    max-width: 100%;
+     height: auto;
+  }
+
+  .footer, .footer > div, .footer > i, .footer > .fab, .footer > img{
     background-color: black;
+    color: black;
 
   }
+
+  .footerhigh{
+      color: #00CC99;
+      background-color: black;
+  }
+
+  .footerp {
+  background-color: black;
+    padding: 0.3em;
+  }
+
+.footerimg{
+  background-color: black;
+  color: black;
+  width: 3em;
+  padding: 0.3em;
+
+  background-blend-mode: luminosity;
+  border:0px solid transparent;
+}
 
   .p {
     font-size: 24px;
