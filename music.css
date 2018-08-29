@@ -185,7 +185,7 @@ ul li{
   display: inline-block;
   justify-content: center;
   text-align: center;
-  color: rgb(16, 85, 156);
+  color: #0390e6;
 
 }
 
@@ -244,7 +244,7 @@ ul li{
 }
 
 .footerhigh{
-    color: #00CC99;
+    color: #0390e6;
     background-color: black;
     margin-top: 0px;
 }
