@@ -127,6 +127,8 @@ div{
 
 
 }
+
+
 /*
 .navbar > .container{
   color: black;
@@ -193,9 +195,18 @@ border-color: white;
 .card{
   align-content: center;
   justify-content: center;
-  border: 3px black;
+
+  border: 1px black;
   max-width: 100%;
    height: auto;
+  /* -webkit-box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.81);
+ box-shadow: 7px 10px 20px -10px rgba(0,0,0,0.81); */
+
+}
+
+.image{
+/*  -webkit-box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81);
+  box-shadow: -7px 10px 20px -10px rgba(0,0,0,0.81); */
 }
 
 .card-content{
@@ -221,7 +232,6 @@ margin-right: auto;
   padding-bottom: 2em;
   border-width: medium;
 
-
 }
 
 .columns{
@@ -242,6 +252,7 @@ margin-right: auto;
   margin-left: 0px;
   margin-right: 0px;
   padding: 0px;
+
 }
 /*
 .columns{
